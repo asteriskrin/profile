@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ddd;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+    background-color: white;
+    padding: 4em;
+}
+.top-section {
+    display: flex;
+    flex-direction: row;
+    margin: 0 4em;
+}
+.top-section > .hhhy {
+    flex-grow: 0;
+}
+
+.top-section > .hhhy > img {
+    padding: 2em;
+    width: 12em;
+    flex-grow: 0;
+}
+.top-section > .hhhx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+a {
+    text-decoration: none;
+    color: chocolate;
+}
+a:hover {
+    text-decoration: none;
+    color: chocolate;
+    text-decoration: underline;
+}
+.journey .time {
+    width: 30%;
+}
+.journey .desc {
+    width: 70%;
+}
